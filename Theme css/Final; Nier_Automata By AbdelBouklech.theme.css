@@ -6,7 +6,7 @@
 @import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
-IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS! 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */
 /*
@@ -28,6 +28,19 @@ Changelog: https://git.io/v6r5N (Look this from Zerthox)
 	--hover-color: #4f4426;
     --background-blur: 0px;
     --background-brightness: 100%;
+}
+.container-RYiLUQ,
+.wrapper-2ldvyE,
+.private-channels .channel.selected a,
+.private-channels .channel:hover a
+{
+    background: transparent !important;    
+}
+.contentSelectedText-3j5CXt,
+.contentHoveredText-2HYGIY, 
+.contentHoveredVoice-3qGNKh:active, 
+.contentSelectedVoice-gTtYM9:active{
+    background-color: rgba(0,0,0,.3);
 }
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
